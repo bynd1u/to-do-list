@@ -1,5 +1,15 @@
    import deleteItemHandler from "../handlers/deleteItemHandler.js";
 
+
+ /**
+ * Creates a DOM element representing a todo item.
+ *
+ * @param {Object} item - The todo item object.
+ * @param {number} item.id - The unique identifier for the todo item.
+ * @param {string} item.text - The text description of the todo item.
+ * @returns {HTMLElement} The DOM element representing the todo item.
+ */
+
 const createItem = (item) => {
     const itemDom = document.createElement("div");
     itemDom.id = item.id;
