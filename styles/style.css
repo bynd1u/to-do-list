@@ -88,7 +88,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0 1rem 0;
 }
 
 #todo-form input {
@@ -103,7 +103,8 @@ button:hover {
 }
 
 .error {
+    height: 1rem;
     color: red;
+    margin-bottom: 1rem;
     font-size: 14px;
-    margin-top: 0.5rem;
 }
