@@ -2,7 +2,7 @@ const dom = {
     input: document.getElementById('todo-input'),
     submitBtn: document.querySelector('.submit-btn'),
     error: document.querySelector('.error'),
-    itemsList: document.querySelector('.todos-list'),
+    itemsList: document.querySelector('.container'),
     clearAllBtn: document.querySelector('.clear-btn'),
 };
 

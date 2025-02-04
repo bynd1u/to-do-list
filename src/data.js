@@ -1,19 +1,19 @@
 const data = {
     items: [
         {
-            id: 1,
+            id: "item1",
             text: 'Buy vitamins',
         },
         {
-            id: 2,
+            id: "item2",
             text: 'Learn JavaScript',
         },
         {
-            id: 3,
+            id: "item3",
             text: 'Wash dishes',
         },
         {
-            id: 4,
+            id: "item4",
             text: 'Call mum',
         },
     ],
